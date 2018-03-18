@@ -1,0 +1,190 @@
+a, img, div, h4, nav, p, section, span, ul{
+    background: 0 0;
+    border: 0;
+	margin: 0;
+    outline: 0;
+    padding: 0;
+	text-decoration: none;
+    vertical-align: baseline;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#background_image{
+	width: 1600px;
+    height: 583px;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#divSite{
+	position: absolute;
+    top: 0px;
+    width: calc((((100vw - 16px) - 0px) * 1) + 1px);
+    height: 100%;
+    pointer-events: none;
+    left: calc((((((100vw - 16px) - 0px) * 1) - 980px) * -0.5) - 1px);
+    bottom: 0px;
+    overflow: hidden;
+    clip: rect(0px, 1011px, 583px, 0px);
+}
+
+#divBgImage{
+	transform: translate3d(0px, 0.2px, 0px);
+    position: relative;
+    width: 1520px;
+    height: 583px;
+    opacity: 0.2;
+}
+
+#divPersonalData{
+	position: absolute;
+    width: 980px;
+    top: 130px;
+    bottom: 0px;
+    left: calc((100% - 980px) * 0.5);
+}
+
+#divTextAboutMe{
+	left: 83px;
+    width: 304px;
+    position: absolute;
+    top: 83px;
+}
+
+#divTextData{
+	left: 470px;
+    width: 470px;
+    position: absolute;
+    visibility: inherit;
+    top: 0px;
+    bottom: 0;
+    background-color: #fbfbfb;
+}
+
+#imgProfilePic{
+	transform: translateZ(0px);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 470px;
+    height: 453px; 
+}
+
+#liNav{
+	width: 134px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
+    display: inline-block;
+    cursor: pointer;
+    font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+#myName{
+	height: 42px;
+	left: 30px;
+	min-height: 42px;
+	position: fixed;
+	text-align: initial;
+	top: 28px;
+	width: 183px;
+}
+
+#myNameLink{
+    align-items: center;
+	background-color: transparent;
+	border: solid transparent 0px;
+    border-radius: 0;
+    bottom: 0;
+	cursor: pointer !important;
+    display: flex;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    -webkit-box-align: center;
+
+}
+
+#myNameSpan{
+    color: #182153;
+    display: inline-block;
+	font: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    position: relative;
+    transition: color 0.4s ease 0s;
+    white-space: nowrap;
+}
+
+#myNameSpan:hover{
+	color: #a4a7b9;
+}
+
+#navSite{
+    height: 50px;
+    position: fixed;
+    right: 20px;
+	top: 30px;
+    width: 708px;
+    z-index: 50;
+}
+
+#pNav{
+	text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 10px;
+    color: #182153;
+    transition: color 0.4s ease 0s;
+    font-size: 16px;
+}
+
+#pNav:hover{
+	color: #a4a7b9;
+}
+
+#divProfilePic{
+	transform: translateZ(0px);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 470px;
+}
+
+#sectionSite{
+	position: fixed;
+    pointer-events: none;
+    top: 100px;
+    transform-style: preserve-3d;
+    width: 1600px;
+    left: -1px;
+    height: 583px;
+    background-color: #060629;
+}
+
+#site_header{
+	position: fixed;
+	width: 1600px;
+	margin-top: 0px;
+	top: 0px;
+	height: 101px;
+	left: 0px;
+	background-color: #fbfbfb;
+}
+
+#textMyName{
+	margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #182153;
+}
+
+#ulNav{
+	text-align: center;
+	list-style: none;
+}
+
