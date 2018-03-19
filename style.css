@@ -1,4 +1,4 @@
-a, img, div, h4, nav, p, section, span, ul{
+a, img, div, h4, h6, nav, p, section, span, ul{
     background: 0 0;
     border: 0;
 	margin: 0;
@@ -13,7 +13,7 @@ body{
 
 #background_image{
 	width: 1600px;
-    height: 583px;
+    height: 483px;
     object-fit: cover;
     pointer-events: none;
 }
@@ -34,16 +34,42 @@ body{
 	transform: translate3d(0px, 0.2px, 0px);
     position: relative;
     width: 1520px;
-    height: 583px;
+    height: 483px;
     opacity: 0.2;
 }
 
 #divPersonalData{
 	position: absolute;
     width: 980px;
-    top: 130px;
+    top: 30px;
     bottom: 0px;
     left: calc((100% - 980px) * 0.5);
+}
+
+#divProfilePic{
+	transform: translateZ(0px);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 470px;
+}
+
+#divSocialNetwork{
+	left: 309px;
+    width: 940.5px;
+    position: absolute;
+    visibility: inherit;
+    top: 583px;
+    height: 74px;
+    background-color: #182153;
+}
+
+#divSocialNetworkLogo{
+	width: 216px;
+    left: 362px;
+    position: absolute;
+    top: 23px;
+    height: 24px;
 }
 
 #divTextAboutMe{
@@ -61,6 +87,15 @@ body{
     top: 0px;
     bottom: 0;
     background-color: #fbfbfb;
+}
+
+#h6PersonalData{
+	letter-spacing: normal;
+	line-height: 1.8em;
+	margin: 0;
+	pointer-events: auto;
+	font: normal normal normal 14px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #182153;
 }
 
 #imgProfilePic{
@@ -81,6 +116,14 @@ body{
     display: inline-block;
     cursor: pointer;
     font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+#liSocialNetwork{
+	width: 24px;
+    height: 24px;
+    margin-bottom: 0px;
+    margin-right: 24px;
+    display: inline-block;
 }
 
 #myName{
@@ -146,13 +189,6 @@ body{
 	color: #a4a7b9;
 }
 
-#divProfilePic{
-	transform: translateZ(0px);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    width: 470px;
-}
 
 #sectionSite{
 	position: fixed;
@@ -161,7 +197,7 @@ body{
     transform-style: preserve-3d;
     width: 1600px;
     left: -1px;
-    height: 583px;
+    height: 483px;
     background-color: #060629;
 }
 
@@ -175,6 +211,13 @@ body{
 	background-color: #fbfbfb;
 }
 
+#textPersonalData{
+	letter-spacing: 0.05em;
+ 	font: normal normal normal 14px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+ 	font-weight: bold;
+ 	color: #182153;
+}
+
 #textMyName{
 	margin: 0;
     line-height: normal;
@@ -186,5 +229,14 @@ body{
 #ulNav{
 	text-align: center;
 	list-style: none;
+}
+
+#ulSocialNetwork{
+    list-style: none;
+    display: block;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
 }
 
