@@ -12,7 +12,7 @@ body{
 }
 
 #background_image{
-	width: 1600px;
+	width: 1519.2px;
     height: 483px;
     object-fit: cover;
     pointer-events: none;
@@ -36,6 +36,100 @@ body{
     width: 1520px;
     height: 483px;
     opacity: 0.2;
+}
+
+#divEducation{
+	background-color: rgb(255,255,255);
+	border-bottom: 2px solid #efefef;
+	position: absolute;
+    top: 1713px;
+    width: 100%;
+    height: 100px;
+    pointer-events: auto;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+   /* clip: rect(0px, 1519px, 100px, 0px);*/	
+}
+
+#divEducationTitle{
+	position: absolute;
+    width: 980px;
+    left: 309px;
+    height: 100px;
+}
+
+#divExperience{
+	border-bottom: 2px solid #efefef;
+	position: absolute;
+    top: 1058px;
+    width: 100%;
+    height: 100px;
+    pointer-events: auto;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    /*clip: rect(0px, 1519px, 100px, 0px);*/
+    background-color: rgb(255,255,255);
+}
+
+#divExperienceContent{
+	position: absolute;
+    left: 309px;
+    width: 980px;
+    top: 0px;
+    height: 551px;
+}
+
+
+#divExperienceTimeline{
+	border-bottom: 2px solid #efefef;
+	position: absolute;
+    top: 1160px;
+    width: 100%;
+    height: 551px;
+    pointer-events: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+   /* clip: rect(0px, 1519px, 560px, 0px);*/
+    background-color: rgb(255,255,255);
+}
+
+#divExperienceTitle{
+    position: absolute;
+    width: 980px;
+    left: 309px;
+    height: 100px;
+}
+
+#divObjective{
+	position: absolute;
+    top: 583px;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+    left: 0;
+    bottom: 0px;
+    overflow: hidden;
+    clip: rect(0px, 1520px, 475px, 0px);
+    background-color: rgb(241,241,241,1);
+}
+
+#divMyObjective{
+	left: 540px;
+    width: 520px;
+    height: 172.8px;
+    position: absolute;
+    top: 180px;
+    word-wrap: break-word;
+    text-align: start;
+    pointer-events: none;
+    background-color: rgb(241,241,241,1);
+    z-index: 1;
 }
 
 #divPersonalData{
@@ -62,6 +156,7 @@ body{
     top: 583px;
     height: 74px;
     background-color: #182153;
+    z-index: 1;
 }
 
 #divSocialNetworkLogo{
@@ -87,6 +182,35 @@ body{
     top: 0px;
     bottom: 0;
     background-color: #fbfbfb;
+}
+
+#h4MyObjective{
+	text-align: center;
+	margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #182153;
+}
+
+#h5textEducation{
+	text-align: center;
+	margin: 0;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    font: normal normal normal 20px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #182153;
+    font-weight: bold;
+}
+
+#h5textExperience{
+	text-align: center;
+	margin: 0;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    font: normal normal normal 20px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #182153;
+    font-weight: bold;
 }
 
 #h6PersonalData{
@@ -166,6 +290,13 @@ body{
 	color: #a4a7b9;
 }
 
+#myObjective{
+	line-height: 1.6em;
+    text-align: center;
+    font: normal normal normal 18px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #182153;
+}
+
 #navSite{
     height: 50px;
     position: fixed;
@@ -191,11 +322,11 @@ body{
 
 
 #sectionSite{
-	position: fixed;
+	position: absolute;
     pointer-events: none;
     top: 100px;
     transform-style: preserve-3d;
-    width: 1600px;
+    width: 1519.2px;
     left: -1px;
     height: 483px;
     background-color: #060629;
@@ -203,12 +334,28 @@ body{
 
 #site_header{
 	position: fixed;
-	width: 1600px;
+	width: 1519.2px;
 	margin-top: 0px;
 	top: 0px;
 	height: 101px;
 	left: 0px;
 	background-color: #fbfbfb;
+}
+
+#textEducation{
+	left: 190px;
+    width: 600px;
+    height: 24px;
+    position: absolute;
+    top: 38px;
+}
+
+#textExperience{
+	left: 190px;
+    width: 600px;
+    height: 24px;
+    position: absolute;
+    top: 38px;
 }
 
 #textPersonalData{
@@ -224,6 +371,12 @@ body{
     letter-spacing: normal;
     font: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
     color: #182153;
+}
+
+#timeLine{
+	border-bottom: 1px solid rgba(241, 241, 241, 1);
+    height: 0 !important;
+    min-height: 0 !important;
 }
 
 #ulNav{
