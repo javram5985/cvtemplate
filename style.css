@@ -18,6 +18,14 @@ body{
     pointer-events: none;
 }
 
+#background_image2{
+	width: 1519.2px;
+    height: 483px;
+    object-fit: cover;
+    pointer-events: none;
+    opacity: 0.2;
+}
+
 #divSite{
 	position: absolute;
     top: 0px;
@@ -121,6 +129,14 @@ body{
     height: 100px;
 }
 
+#divIndividualSkill{
+	position: absolute;
+    width: 980px;
+    top: 0px;
+    bottom: 0px;
+    left: calc((100% - 980px) * 0.5);
+}
+
 #divObjective{
 	position: absolute;
     top: 583px;
@@ -164,7 +180,7 @@ body{
 }
 
 #divSkills{
-	border-bottom: 2px solid #efefef;
+	border-bottom: 2px solid white;
 	position: absolute;
     top: 2326px;
     width: 100%;
@@ -176,6 +192,37 @@ body{
     overflow: hidden;
     /*clip: rect(0px, 1519px, 100px, 0px);*/
     background-color: rgb(24, 33, 83);
+}
+
+#divSkillsSection{
+	background-color: #060629;
+	top: 2428px;
+	bottom: 0px;
+	overflow: hidden;
+	width: 100%;
+	position: absolute;
+	height: 380px;
+	left: 0px;
+	right: 0px;
+}
+
+#divSkillInfo{
+	left: 20px;
+    width: 415px;
+    position: absolute;
+    top: 50px;
+    height: 77px;
+    visibility: inherit;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#divSkillInfoText{
+	left: 26px;
+    width: 363px;
+    height: 24.8px;
+    position: absolute;
+    top: 26px;
+    visibility: inherit;
 }
 
 #divSocialNetwork{
@@ -399,6 +446,15 @@ body{
 	color: #a4a7b9;
 }
 
+#pSkillInfoText{
+	line-height: 1.8em;
+	letter-spacing: 0.2em;
+    text-align: center;
+   	font: normal normal normal 14px/1.4em;
+    color: #FFFFFF;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif
+}
+
 #secondEducation{
 	left: 0px;
     width: 435px;
@@ -439,7 +495,7 @@ body{
     width: 1519.2px;
     left: -1px;
     height: 483px;
-    background-color: #060629;
+    background-color: #233161;
 }
 
 #site_header{
