@@ -60,6 +60,21 @@ body{
     height: 100px;
 }
 
+#divEducationTimeline{
+	border-bottom: 2px solid #efefef;
+	position: absolute;
+    top: 1944px;
+    width: 100%;
+    height: 380px;
+    pointer-events: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+   /* clip: rect(0px, 1519px, 560px, 0px);*/
+    background-color: rgb(255,255,255);
+}
+
 #divExperience{
 	border-bottom: 2px solid #efefef;
 	position: absolute;
@@ -357,6 +372,22 @@ body{
 
 #pNav:hover{
 	color: #a4a7b9;
+}
+
+#secondEducation{
+	left: 0px;
+    width: 435px;
+    position: absolute;
+    top: 280px;
+    visibility: inherit;
+}
+
+#secondEducationText{
+	left: 545px;
+    width: 416px;
+    position: absolute;
+    top: 280px;
+    visibility: inherit;
 }
 
 #secondExperience{
