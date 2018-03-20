@@ -42,7 +42,7 @@ body{
 	background-color: rgb(255,255,255);
 	border-bottom: 2px solid #efefef;
 	position: absolute;
-    top: 1713px;
+    top: 1842px;
     width: 100%;
     height: 100px;
     pointer-events: auto;
@@ -89,7 +89,7 @@ body{
 	position: absolute;
     top: 1160px;
     width: 100%;
-    height: 551px;
+    height: 680px;
     pointer-events: auto;
     bottom: 0;
     left: 0;
@@ -134,10 +134,10 @@ body{
 
 #divPersonalData{
 	position: absolute;
-    width: 980px;
+    width: 940.5px;
     top: 30px;
     bottom: 0px;
-    left: calc((100% - 980px) * 0.5);
+    left: 310px;
 }
 
 #divProfilePic{
@@ -184,6 +184,22 @@ body{
     background-color: #fbfbfb;
 }
 
+#firstExperience{
+	left: 0px;
+    width: 435px;
+    position: absolute;
+    top: 52px;
+    visibility: inherit;
+}
+
+#firstExperienceText{
+	left: 545px;
+    width: 416px;
+    position: absolute;
+    top: 52px;
+    visibility: inherit;
+}
+
 #h4MyObjective{
 	text-align: center;
 	margin: 0;
@@ -219,6 +235,14 @@ body{
 	margin: 0;
 	pointer-events: auto;
 	font: normal normal normal 14px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #182153;
+}
+
+#h6Experience{
+	line-height: 1.8em;
+    text-align: right;
+    letter-spacing: 0.25em;
+    font: normal normal normal 14px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
     color: #182153;
 }
 
@@ -306,6 +330,21 @@ body{
     z-index: 50;
 }
 
+#companyName{
+	line-height: 1.8em;
+	font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #182153;
+    letter-spacing: 0.2em;
+}
+
+#pExperience{
+	line-height: 1.8em;
+    text-align: right;
+    font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #182153;
+    letter-spacing: 0.2em;
+}
+
 #pNav{
 	text-align: center;
     line-height: 50px;
@@ -320,6 +359,21 @@ body{
 	color: #a4a7b9;
 }
 
+#secondExperience{
+	left: 0px;
+    width: 435px;
+    position: absolute;
+    top: 250px;
+    visibility: inherit;
+}
+
+#secondExperienceText{
+	left: 545px;
+    width: 416px;
+    position: absolute;
+    top: 250px;
+    visibility: inherit;
+}
 
 #sectionSite{
 	position: absolute;
@@ -373,8 +427,24 @@ body{
     color: #182153;
 }
 
+#thirdExperience{
+	left: 0px;
+    width: 435px;
+    position: absolute;
+    top: 490px;
+    visibility: inherit;
+}
+
+#thirdExperienceText{
+	left: 545px;
+    width: 416px;
+    position: absolute;
+    top: 490px;
+    visibility: inherit;
+}
+
 #timeLine{
-	border-bottom: 1px solid rgba(241, 241, 241, 1);
+	border-bottom: 1.2px solid rgba(241, 241, 241, 1);
     height: 0 !important;
     min-height: 0 !important;
 }
