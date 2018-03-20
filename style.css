@@ -95,7 +95,7 @@ body{
     left: 309px;
     width: 980px;
     top: 0px;
-    height: 551px;
+    height: 383px;
 }
 
 
@@ -161,6 +161,21 @@ body{
     bottom: 0;
     top: 0;
     width: 470px;
+}
+
+#divSkills{
+	border-bottom: 2px solid #efefef;
+	position: absolute;
+    top: 2326px;
+    width: 100%;
+    height: 100px;
+    pointer-events: auto;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    /*clip: rect(0px, 1519px, 100px, 0px);*/
+    background-color: rgb(24, 33, 83);
 }
 
 #divSocialNetwork{
@@ -241,6 +256,16 @@ body{
     letter-spacing: 0.05em;
     font: normal normal normal 20px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
     color: #182153;
+    font-weight: bold;
+}
+
+#h5textSkills{
+	text-align: center;
+	margin: 0;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    font: normal normal normal 20px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: white;
     font-weight: bold;
 }
 
