@@ -5,33 +5,34 @@
 	<title>Professional CV</title>
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 </head>
 <body>
 	<header id='site_header'>
 		<div id='myName'>
-			<a href="#" id="myNameLink">
+			<a href="" id="myNameLink">
 				<span id="myNameSpan">Javier Ramirez</span>
 			</a>
 		</div>
 			<nav id="navSite">
 				<ul id="ulNav">
             		<li id="liNav">
-              			<a href="#divExperience">
+              			<a href="">
               				<p id="pNav">EXPERIENCE</p>
               			</a>
             		</li>
             		<li id="liNav">
-              			<a href="#divEducation">
+              			<a href="">
               				<p id="pNav">EDUCATION</p>
               			</a>
             		</li>
             		<li id="liNav">
-              			<a href="#divSkills">
+              			<a href="">
               				<p id="pNav">SKILLS</p>
               			</a>
             		</li>
             		<li id="liNav">
-              			<a href="index.html">
+              			<a href="">
               				<p id="pNav">CONTACT</p>
               			</a>
             		</li>
@@ -136,7 +137,7 @@
 			</section>
 		</div>
 	</div>
-	<div id="divExperience">
+	<div id="divExperience" class="divExperience">
 		<div id="divExperienceTitle">
 			<div id="textExperience">
 				<h5 id="h5textExperience">EXPERIENCE</h5>
@@ -363,7 +364,39 @@
 			</div>
 		</div>
 	</div>
+	<div id="divContact">
+		<div id="divContactTitle">
+			<div id="textContact">
+				<h5 id="h5textContact">CONTACT ME</h5>
+			</div>
+		</div>
+	</div>
+	<div id="divContactInfo">
+		<div id="divContactInfo2">
+			<div id="divViewerContactInfo">
+				<form role="form">
+					<div id="formNameEmail">
+						<input type="text" aria-invalid="false" name="Name" id="inputName" placeholder="Name *">
+						<input type="text" aria-invalid="false" name="Name" id="inputEmail" placeholder="Email *">
+					</div>
+					<div id="divSubject">
+						<input type="text" id="subject" aria-invalid="false" name="Subject" value="" class="" placeholder="Subject">
+					</div>
+					<textarea name="Message" id="textArea" placeholder="Message"></textarea>
+					<button type="submit" id="button">Send</button>
+				</form>
+			</div>
+			<div class="style-irm4zm7q" data-angle="270" id="contactLine" style="left: 250px; width: 485px; position: absolute; transform: rotate(270deg) translateZ(0px); top: 243px; height: 5px;">
+			</div>
+		</div>
+	</div>
 </body>
+<!-- <script type="text/javascript">
+		$("li a").click(function() {
+    		$('html,body').animate({
+        		scrollTop: $(".divExperience").offset().top
+        	}, 1000);
+        	return false;
+		});
+	</script> -->
 </html>
-
-modificar centro de los 309px
