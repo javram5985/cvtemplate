@@ -64,7 +64,7 @@ body{
 #divEducationTitle{
 	position: absolute;
     width: 980px;
-    left: 309px;
+    left: calc((100% - 980px) * 0.5);
     height: 100px;
 }
 
@@ -100,7 +100,7 @@ body{
 
 #divExperienceContent{
 	position: absolute;
-    left: 309px;
+    left: calc((100% - 980px) * 0.5);
     width: 980px;
     top: 0px;
     height: 383px;
@@ -125,7 +125,7 @@ body{
 #divExperienceTitle{
     position: absolute;
     width: 980px;
-    left: 309px;
+    left: calc((100% - 980px) * 0.5);
     height: 100px;
 }
 
@@ -151,7 +151,7 @@ body{
 }
 
 #divMyObjective{
-	left: 540px;
+	left: calc((100% - 520px) * 0.5);
     width: 520px;
     height: 172.8px;
     position: absolute;
@@ -168,7 +168,7 @@ body{
     width: 940.5px;
     top: 30px;
     bottom: 0px;
-    left: 310px;
+    left: calc((100% - 940.5px) * 0.5);
 }
 
 #divProfilePic{
@@ -226,7 +226,7 @@ body{
 }
 
 #divSocialNetwork{
-	left: 309px;
+	left: calc((100% - 944px) * 0.5);
     width: 940.5px;
     position: absolute;
     visibility: inherit;
@@ -506,6 +506,7 @@ body{
 	height: 101px;
 	left: 0px;
 	background-color: #fbfbfb;
+	z-index: 100;
 }
 
 #textEducation{
