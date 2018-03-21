@@ -5,7 +5,7 @@
 	<title>Professional CV</title>
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
 	<header id='site_header'>
@@ -17,22 +17,22 @@
 			<nav id="navSite">
 				<ul id="ulNav">
             		<li id="liNav">
-              			<a href="">
+              			<a href="" id="linkExperience">
               				<p id="pNav">EXPERIENCE</p>
               			</a>
             		</li>
             		<li id="liNav">
-              			<a href="">
+              			<a href="" id="linkEdu">
               				<p id="pNav">EDUCATION</p>
               			</a>
             		</li>
             		<li id="liNav">
-              			<a href="">
+              			<a href="" id="linkSkills">
               				<p id="pNav">SKILLS</p>
               			</a>
             		</li>
             		<li id="liNav">
-              			<a href="">
+              			<a href="" id="linkContact">
               				<p id="pNav">CONTACT</p>
               			</a>
             		</li>
@@ -391,12 +391,36 @@
 		</div>
 	</div>
 </body>
-<!-- <script type="text/javascript">
-		$("li a").click(function() {
+<script type="text/javascript">
+		$("#myNameLink").click(function() {
+    		$('html,body').animate({
+        		scrollTop: $("body").offset().top
+        	}, 1000);
+        	return false;
+		});
+		$("#linkExperience").click(function() {
     		$('html,body').animate({
         		scrollTop: $(".divExperience").offset().top
         	}, 1000);
         	return false;
 		});
-	</script> -->
+		$("#linkEdu").click(function() {
+    		$('html,body').animate({
+        		scrollTop: $("#divEducation").offset().top
+        	}, 1000);
+        	return false;
+		});
+		$("#linkSkills").click(function() {
+    		$('html,body').animate({
+        		scrollTop: $("#divSkills").offset().top
+        	}, 1000);
+        	return false;
+		});
+		$("#linkContact").click(function() {
+    		$('html,body').animate({
+        		scrollTop: $("#divContact").offset().top
+        	}, 1000);
+        	return false;
+		});
+</script>
 </html>
